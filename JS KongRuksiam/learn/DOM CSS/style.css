@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    text-decoration: overline;
+    /* text-decoration: line-through; */
+}
+
+.darkMode {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
+
+.button {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.button:hover {
+    background-color: rgb(247, 201, 141);
+}
+
+.button:active {
+    background-color: rgb(247, 201, 141);
+    /* box-shadow: 0 5px #666; */
+    transform: translateY(4px);
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM EVENT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="welcome()">
+    <div id="box">
+        <p>DOM EVENT BY Kontawat Wisetpaitoon</p>
+    </div>
+    <label for="">NAME :</label>
+    <input type="text" placeholder="Input your name" onfocus="hightLight(this)" onblur = "unHightLight(this)">
+    <textarea name="" id="" cols="30" rows="10" onfocus="hightLight(this)" onblur = "unHightLight(this)"></textarea>
+    <label for=""><br>SELECT YOUR FRAM WORK</label>
+    <select name="" id="menu">
+        <option value="javaScript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="CSS">CSS</option>
+    </select>
+    <p id ="display">Display</p>
+    <button id="btn">SHOW MESSAGE</button>
+    <a href="" onmouseover="hightLight(this)" onmouseout="unHightLight(this)">MENU 1</a>
+    <a href="" onmouseover="hightLight(this)" onmouseout="unHightLight(this)">MENU 2</a>
+    <script src="app.js"></script>
+</body>
+</html>
